@@ -1,5 +1,6 @@
 #Descrição do projeto
 Dado o layot do projeto o candidato deve consumir uma api de banners e disponibilizar o mesmo no site.
+
 ![alt text](https://github.com/thiagoborgesamhp/portal-colaborador/blob/main/images/trecho_banner.jpg?raw=true)
 
 #Endereço da API
