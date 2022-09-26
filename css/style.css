@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("/fonts/Lato-Black.ttf");
+}
+
+img#logo {
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    text-align: right;
+}
+
+li {
+    text-align: right;
+    padding-left: 150px;
+}
+
+.corrossel {
+    height: 600px;
+    border: 1px solid #000;
+}
+
+a:link,
+a:visited {
+    color: #404759;
+}
+
+p {
+    text-align: center;
+    color: #404759;
+}
+
+p#novosColaboradores {
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #404759;
+}
+
+.semFoto {
+    margin-top: 15px;
+    height: 200px;
+}
+
+div#aniversarios {
+    background-image: url("/images/bolo.png");
+    background-size: 100%;
+    color: #404759;
+}
+
+.aniversariantes {
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.fotoAniversarianteEspecial {
+    margin-top: 60px;
+    height: 170px;
+}
+
+.fotoAniversariantes {
+    margin-top: 125px;
+    text-align: center;
+    height: 170px;
+}
+
+div#pergunta {
+    margin-top: 70px;
+    color: #404759;
+    font-size: 100em;
+    text-align: center;
+}
+
+.amhp {
+    font-size: 80px;
+}
+
+div#texto {
+    margin-top: 70px;
+    color: #404759;
+}
+
+.paragrafo {
+    text-align: justify;
+}
+
+div#olho {
+    margin-top: 50px;
+    text-align: center;
+    color: #404759;
+}
+
+button#botaoOlho {
+    border-radius: 50px;
+    width: 150px;
+    background-color: #404759;
+    border-color: #404759;
+}
+
+div#livro {
+    margin-top: 50px;
+    text-align: center;
+    color: #404759;
+}
+
+button#botaoLivro {
+    border-radius: 50px;
+    width: 150px;
+    background-color: #404759;
+    border-color: #404759;
+}
+
+div#mira {
+    margin-top: 50px;
+    text-align: center;
+    color: #404759;
+}
+
+button#botaoMira {
+    border-radius: 50px;
+    width: 150px;
+    background-color: #404759;
+    border-color: #404759;
+}
+
+div#frase {
+    margin-top: 50px;
+    font-size: 37px;
+    margin-bottom: 30px;
+    color: #404759;
+}
+
+div#footer {
+    height: 50px;
+    background-color: #404759;
+}
+
+.direitosAutorais {
+    margin-top: 15px;
+    color: white;
+}
+
+.borda {
+    border: 1px solid #000;
+}
