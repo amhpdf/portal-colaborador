@@ -1,5 +1,5 @@
 #Descrição do projeto
-Dado o layot do projeto o candidato deve fazer consumir uma api de banners e disponibilizar o mesmo no site.
+Dado o layot do projeto o candidato deve consumir uma api de banners e disponibilizar o mesmo no site.
 
 #Endereço da API
 https://api-site.amhp.com.br/api/banners/publicados
