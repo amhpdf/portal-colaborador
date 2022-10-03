@@ -7,7 +7,14 @@ Consiste na apresentação de uma página de sistema intranet que apresenta info
 O Setor de Recursos Humanos da AMHP solicitou a inclusão de uma área para banners no topo da página principal. Os banners são cadastrados pelo RH em outra área do sistema e podem ser consultados através da [API](https://github.com/ti-amhp/portal-colaborador/edit/main/README.md#endere%C3%A7o-da-api) criada pela equipe de desenvolvimento para facilitar a utilização dessas informações.
 A tarefa do candidato será consumir essa api de banners e disponibilizar a visualiação no site. O local de inserção dos banners já está definido no código fornecido, na seguinte área:
 
-![alt text](https://github.com/thiagoborgesamhp/portal-colaborador/blob/main/images/trecho_banner.jpg?raw=true)
+```html
+<div class="row">
+    <div class="col-12 corrossel">
+        <!-- carrossel aqui -->
+        BANNER ENTRA AQUI
+    </div>
+</div>
+```
 
 #### [Endereço da API](#endereco-da-api)
 * https://api-site.amhp.com.br/api/banners/publicados
