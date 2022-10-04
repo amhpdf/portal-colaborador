@@ -1,0 +1,31 @@
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#card{
+    background-color: gray;
+    display: inline-block;
+    width: 25%;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px;
+}
