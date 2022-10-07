@@ -7,8 +7,8 @@ $.ajax({
     success: function(data) {
         let carouselItem = '';
 
-        data.forEach((item) => {
-            if(item.ordenacao >= 0) {
+        data.forEach((item, index) => {
+            if(index == 0) {
                 carouselItem += `<div class="carousel-item active">
                                     <img src="data:image/png;base64, ${item.imagem}" class="d-block w-100" alt="${item.titulo}">
                                 </div>`;
@@ -28,5 +28,5 @@ $.ajax({
 
   const carousel = document.querySelector(".slide")
   let carouselSlide = new bootstrap.Carousel(carousel, {
-    interval: 1000
+    interval: 5000
   });
